@@ -29,6 +29,10 @@ body {
 }
 
 .bg-gradient {
-  background-image: linear-gradient(to right, #2563EB, #701A75);
+  background-image: linear-gradient(to right, #2563eb, #701a75);
   /* Adjust the color stops and direction as needed */
+}
+
+.bg-modal {
+  background-color: #94a3b8;
 }
