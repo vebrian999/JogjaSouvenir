@@ -3,14 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4TFRFZ6RC6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4TFRFZ6RC6');
+</script>
+
     <title>JogjaSouvenir</title>
     <link rel="stylesheet" href="assets/app.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/your-embed-code.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!-- awal header -->
     <header>
       <nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
@@ -60,7 +72,7 @@
       </nav>
       <!-- awal jumbotron -->
       <section class="bg-center bg-no-repeat bg-full bg-[url('assets/img/background-jumbotron.png')] bg-gray-700 bg-blend-multiply md:flex">
-        <div class="px-4 mx-auto max-w-screen-xl text-center py-48 md:py-24 lg:py-56 w-full md:w-1/2">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-48 md:py-24 lg:py-56 w-full md:w-1/2" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="700">
           <div class="">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-7xl">Explore some souvenirs for you</h1>
             <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
@@ -83,12 +95,12 @@
             </a>
           </div>
         </div>
-        <div class="w-1/2 flex justify-center items-center">
+        <div class="w-1/2 flex justify-center items-center" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="700">
           <iframe
-            class="hidden md:block"
+            class="hidden md:block floating"
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/n0yXWI2zhBE?si=ZBdSO3p67IyhYTvI"
+            src="https://www.youtube.com/embed/_FPoTObOHK0?si=dxAjtDRVHzZONoCh"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -110,7 +122,7 @@
             <p class="text-xl font-light text-gray-500">We have provided various types of souvenirs for you and your loved one</p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-            <div class="da relative flex flex-col justify-center overflow-hidden">
+            <div class="da relative flex flex-col justify-center overflow-hidden" data-aos="flip-down" data-aos-anchor="#example-anchor" data-aos-offset="900" data-aos-duration="800">
               <div class="group relative m-0 flex rounded-xl shadow-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out hover:opacity-100">
                 <img src="assets/img/card-category.png" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
                 <div class="absolute bottom-0 z-10 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 bg-black bg-opacity-50 rounded-b-xl">
@@ -119,7 +131,7 @@
                 </div>
               </div>
             </div>
-            <div class="da relative flex flex-col justify-center overflow-hidden">
+            <div class="da relative flex flex-col justify-center overflow-hidden" data-aos="flip-down" data-aos-anchor="#example-anchor" data-aos-offset="1400" data-aos-duration="1000">
               <div class="group relative m-0 flex rounded-xl shadow-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out hover:opacity-100">
                 <img src="assets/img/card-category1.png" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
                 <div class="absolute bottom-0 z-10 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 bg-black bg-opacity-50 rounded-b-xl">
@@ -128,7 +140,7 @@
                 </div>
               </div>
             </div>
-            <div class="da relative flex flex-col justify-center overflow-hidden">
+            <div class="da relative flex flex-col justify-center overflow-hidden" data-aos="flip-down" data-aos-anchor="#example-anchor" data-aos-offset="1500" data-aos-duration="1200">
               <div class="group relative m-0 flex rounded-xl shadow-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out hover:opacity-100">
                 <img src="assets/img/card-category2.png" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
                 <div class="absolute bottom-0 z-10 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 bg-black bg-opacity-50 rounded-b-xl">
@@ -143,7 +155,7 @@
         <!-- akhir kategori souvenir -->
 
         <!-- awal look order -->
-        <article id="about" class="bg-order mx-4 md:mx-40 my-8 md:my-20">
+        <article id="about" class="bg-order bg-slate-400 mx-4 md:mx-40 my-8 md:my-20" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="300" data-aos-duration="1200">
           <div class="px-4 md:px-14 py-14 md:py-28 max-w-7xl mx-auto md:flex">
             <div class="relative md:w-1/2">
               <div class="flex relative">
@@ -154,9 +166,12 @@
               </div>
             </div>
             <div class="md:w-1/2 flex flex-col justify-center items-center md:text-center md:pl-4">
-              <div class="flex flex-col gap-y-6">
-                <h1 class="text-2xl md:text-4xl text-white font-normal">Look for your souvenirs and order now</h1>
-                <p class="text-base md:text-xl text-white font-light leading-relaxed">Find souvenirs for your beloved lover now without any hassle by clicking the button below now</p>
+              <div class="flex flex-col gap-y-10">
+                <h1 class="text-2xl md:text-4xl text-white text-left font-normal">Look for your souvenirs and order now</h1>
+                <p class="text-base md:text-xl text-white text-left font-light leading-relaxed">
+                  Find souvenirs for your beloved lover now without any hassle by clicking the button <br />
+                  below now
+                </p>
                 <a
                   data-modal-target="authentication-modal"
                   data-modal-toggle="authentication-modal"
@@ -180,7 +195,7 @@
           </div>
 
           <!-- card -->
-          <div class="md:flex justify-center gap-x-10 md:mx-40">
+          <div class="md:flex justify-center gap-x-10 md:mx-40 mx-4">
             <div class="group mt-10 flex justify-center w-full md:md:max-w-xs flex-col overflow-hidden bg-card-ec">
               <a
                 data-modal-target="authentication-modal"
@@ -248,7 +263,7 @@
               </a>
               <div class="mt-4 pb-5 flex flex-col">
                 <a href="#">
-                  <h1 class="text-center tracking-tight font-semibold text-xl">Mount Hand Cast </h1>
+                  <h1 class="text-center tracking-tight font-semibold text-xl">Mount Hand Cast</h1>
                   <h2 class="text-center tracking-tight font-light text-gray-500">Made by Jogja souvenirs</h2>
                 </a>
                 <div class="flex justify-center">
@@ -336,7 +351,7 @@
           </div>
 
           <!-- row2 -->
-          <div class="md:flex justify-center gap-x-10 md:mx-40">
+          <div class="md:flex justify-center gap-x-10 md:mx-40 mx-4">
             <div class="group mt-10 flex justify-center w-full md:max-w-xs flex-col overflow-hidden bg-card-ec">
               <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="relative flex h-80 md:h-full overflow-hidden justify-center" href="#">
                 <img class="absolute w-full top-0 right-0 object-cover" src="assets/img/keranjang-shop.png" alt="product image" />
@@ -499,194 +514,199 @@
 
         <!-- awal komen -->
         <article class="my-20">
-          <div class="justify-center text-center my-10">
+          <div class="text-center my-5">
             <h1 class="font-semibold text-3xl">What everyone says</h1>
             <p class="text-xl font-light text-gray-500">See what those who have used this website have to say</p>
           </div>
-          <div class="grid gap-6 text-center md:grid-cols-3 md:mx-40 lg:gap-12">
-            <div class="mb-12 md:mb-0 bg-coments p-10">
-              <div class="mb-6 flex justify-center">
-                <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg" class="w-32 rounded-full shadow-lg dark:shadow-black/30" />
+          <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
+
+          <script type="module">
+            import KeenSlider from "https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm";
+
+            const keenSlider = new KeenSlider(
+              "#keen-slider",
+              {
+                loop: true,
+                slides: {
+                  origin: "center",
+                  perView: 1.25,
+                  spacing: 16,
+                },
+                breakpoints: {
+                  "(min-width: 1024px)": {
+                    slides: {
+                      origin: "auto",
+                      perView: 2.5,
+                      spacing: 32,
+                    },
+                  },
+                },
+              },
+              []
+            );
+
+            const keenSliderPrevious = document.getElementById("keen-slider-previous");
+            const keenSliderNext = document.getElementById("keen-slider-next");
+
+            keenSliderPrevious.addEventListener("click", () => keenSlider.prev());
+            keenSliderNext.addEventListener("click", () => keenSlider.next());
+          </script>
+
+          <section class="bg-slate-400 bg-opacity-20">
+            <div class="px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
+              <div class="max-w-7xl items-end justify-between sm:flex sm:pe-6 lg:pe-8">
+                <h2 class="max-w-xl md:mx-28 text-4xl font-medium tracking-tight text-gray-900 sm:text-5xl">Baca ulasan tepercaya dari <span class="text-blue-600">pelanggan kami</span></h2>
+
+                <div class="mt-8 flex gap-4 lg:mt-0 item">
+                  <button aria-label="Previous slide" id="keen-slider-previous" class="rounded-full border border-blue-600 p-3 text-blue-600 transition hover:bg-blue-600 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 rtl:rotate-180">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                  </button>
+
+                  <button aria-label="Next slide" id="keen-slider-next" class="rounded-full border border-blue-600 p-3 text-blue-600 transition hover:bg-blue-600 hover:text-white">
+                    <svg class="size-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                    </svg>
+                  </button>
+                </div>
               </div>
-              <h5 class="mb-4 text-xl font-semibold text-white">Maria Smantha</h5>
-              <h6 class="mb-4 font-semibold text-white">Senior Travelers</h6>
-              <p class="mb-4 text-white">
-                <span class="inline-block pe-2 [&>svg]:w-5"
-                  ><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                      d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-                  </svg>
-                </span>
-                JogjaSouvenir offers a delightful range of authentic Yogyakarta souvenirs. Easy ordering, prompt delivery, and excellent quality!
-              </p>
-              <ul class="mb-0 flex items-center justify-center">
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg clip-rule="evenodd" fill-rule="evenodd" fill="currentColor" class="h-5 w-5 text-yellow-500" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44zm.678 2.033v11.904l4.707 2.505-.951-5.236 3.851-3.662-5.314-.756z"
-                      fill-rule="nonzero" />
-                  </svg>
-                </li>
-              </ul>
-            </div>
-            <div class="mb-12 md:mb-0 mb-0 bg-coments p-10">
-              <div class="mb-6 flex justify-center">
-                <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg" class="w-32 rounded-full shadow-lg dark:shadow-black/30" />
+
+              <div class="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
+                <div id="keen-slider" class="keen-slider">
+                  <div class="keen-slider__slide">
+                    <blockquote class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
+                      <div>
+                        <div class="flex gap-0.5 text-yellow-500">
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                        </div>
+
+                        <div class="mt-4">
+                          <p class="text-2xl font-normal text-blue-600 sm:text-3xl">Maria Smantha</p>
+
+                          <p class="mt-4 leading-relaxed text-gray-700">JogjaSouvenir offers a delightful range of authentic Yogyakarta souvenirs. Easy ordering, prompt delivery, and excellent quality!</p>
+                        </div>
+                      </div>
+
+                      <footer class="mt-4 text-sm font-medium text-gray-700 sm:mt-6">&mdash; Travelers</footer>
+                    </blockquote>
+                  </div>
+
+                  <div class="keen-slider__slide">
+                    <blockquote class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
+                      <div>
+                        <div class="flex gap-0.5 text-yellow-500">
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                        </div>
+
+                        <div class="mt-4">
+                          <p class="text-2xl font-normal text-blue-600 sm:text-3xl">Lisa Cudrow</p>
+
+                          <p class="mt-4 leading-relaxed text-gray-700">JogjaSouvenir's user-friendly website makes souvenir shopping a breeze. Beautifully crafted items and on-time delivery!</p>
+                        </div>
+                      </div>
+
+                      <footer class="mt-4 text-sm font-medium text-gray-700 sm:mt-6">&mdash; Travelers</footer>
+                    </blockquote>
+                  </div>
+
+                  <div class="keen-slider__slide">
+                    <blockquote class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
+                      <div>
+                        <div class="flex gap-0.5 text-yellow-500">
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+
+                          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                        </div>
+
+                        <div class="mt-4">
+                          <p class="text-2xl font-normal text-blue-600 sm:text-3xl">Panji Petualang</p>
+
+                          <p class="mt-4 leading-relaxed text-gray-700">Consistently impressed with JogjaSouvenir's diverse selection and top-notch customer service. My go-to for Indonesian souvenirs!</p>
+                        </div>
+                      </div>
+
+                      <footer class="mt-4 text-sm font-medium text-gray-700 sm:mt-6">&mdash; Anonymous</footer>
+                    </blockquote>
+                  </div>
+                </div>
               </div>
-              <h5 class="mb-4 text-xl font-semibold text-white">Lisa Cudrow</h5>
-              <h6 class="mb-4 font-semibold text-white">Travelers</h6>
-              <p class="mb-4 text-white">
-                <span class="inline-block pe-2 [&>svg]:w-5"
-                  ><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                      d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-                  </svg>
-                </span>
-                JogjaSouvenir's user-friendly website makes souvenir shopping a breeze. Beautifully crafted items and on-time delivery!
-              </p>
-              <ul class="mb-0 flex items-center justify-center">
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-              </ul>
             </div>
-            <div class="mb-0 bg-coments p-10">
-              <div class="mb-6 flex justify-center">
-                <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg" class="w-32 rounded-full shadow-lg dark:shadow-black/30" />
-              </div>
-              <h5 class="mb-4 text-xl font-semibold text-white">Panji Petualang</h5>
-              <h6 class="mb-4 font-semibold text-white">Anonymous</h6>
-              <p class="mb-4 text-white">
-                <span class="inline-block pe-2 [&>svg]:w-5"
-                  ><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                      d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-                  </svg>
-                </span>
-                Consistently impressed with JogjaSouvenir's diverse selection and top-notch customer service. My go-to for Indonesian souvenirs!
-              </p>
-              <ul class="mb-0 flex items-center justify-center">
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="h-5 w-5 text-yellow-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
+          </section>
         </article>
         <!-- akhir komen -->
+
         <!-- awal NIM NAMA -->
         <article class="my-10">
           <div class="justify-center text-center my-5">
-            <h1 class="font-semibold text-xl md:text-3xl">My profile</h1>
+            <h1 class="font-semibold text-xl md:text-3xl">Our Team</h1>
             <p class="text-sm md:text-xl font-light text-gray-500">Berikut ini adalah nim dan nama saya.</p>
           </div>
 
@@ -746,8 +766,102 @@
         </article>
         <!-- akhir NIM NAMA -->
 
+        <!-- Awal FAQ -->
+        <article id="kategory" class="bg-our-team">
+          <div class="my-20">
+            <div class="text-center my-5">
+              <h1 class="font-semibold text-3xl">What everyone says</h1>
+              <p class="text-xl font-light text-gray-500">See what those who have used this website have to say</p>
+            </div>
+            <section class="bg-slate-400 bg-opacity-20 py-10">
+              <div class="relative w-full px-6 pb-8 mt-8 sm:max-w-4xl sm:rounded-lg sm:px-10 mx-auto">
+                <div class="mx-auto px-5">
+                  <div class="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200">
+                    <div class="py-5">
+                      <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                          <span>Bagaimana cara membeli baju khas Jogja?</span>
+                          <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                          Anda bisa membeli baju khas Jogja dengan mendaftarkan akun, mencari baju yang diinginkan, dan mengikuti proses checkout yang telah disediakan. Pembayaran dapat dilakukan melalui kartu kredit, transfer bank, atau
+                          metode pembayaran lain yang tersedia.
+                        </p>
+                      </details>
+                    </div>
+                    <div class="py-5">
+                      <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                          <span>Bagaimana cara memesan makanan khas Jogja?</span>
+                          <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                          Untuk memesan makanan khas Jogja, Anda perlu membuat akun, memilih makanan yang diinginkan, dan mengikuti proses pemesanan. Pengiriman makanan akan dilakukan sesuai dengan metode yang Anda pilih.
+                        </p>
+                      </details>
+                    </div>
+                    <div class="py-5">
+                      <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                          <span>Apakah ada biaya pengiriman untuk pernak-pernik?</span>
+                          <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">Ya, ada biaya pengiriman untuk pernak-pernik yang dibeli. Biaya pengiriman tergantung pada lokasi Anda dan akan ditampilkan saat proses checkout.</p>
+                      </details>
+                    </div>
+
+                    <div class="py-5">
+                      <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                          <span>Bagaimana cara menghubungi layanan pelanggan?</span>
+                          <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                          Jika Anda membutuhkan bantuan, Anda dapat menghubungi tim layanan pelanggan kami melalui formulir kontak di situs web atau mengirim email ke support@souvenirjogja.com.
+                        </p>
+                      </details>
+                    </div>
+                    <div class="py-5">
+                      <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                          <span>Apakah ada promo atau diskon khusus untuk aksesoris?</span>
+                          <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                          Kami sering mengadakan promo dan diskon khusus untuk aksesoris. Untuk mendapatkan informasi terbaru, Anda bisa mendaftar ke newsletter kami atau mengikuti kami di media sosial.
+                        </p>
+                      </details>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+        <!-- Akhir FAQ -->
+
         <!-- awal cta2 -->
-        <article class="my-16">
+        <article class="my-16" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="300" data-aos-duration="1200">
           <section class="bg-gradient md:mx-40">
             <div class="py-8 px-4 sm:py-16 lg:px-6">
               <div class="text-center flex flex-col justify-center">
@@ -863,9 +977,6 @@
     </footer>
     <!-- akhir footer -->
 
-    <!-- cdn flowbite -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-
     <!-- awal modal (popup) -->
     <!-- Main modal -->
     <!-- Main modal -->
@@ -921,5 +1032,12 @@
       </div>
     </div>
     <!-- akhir modal (popup) -->
+
+    <!-- cdn flowbite -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
